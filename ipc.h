@@ -74,7 +74,7 @@
  * has to increase these values
  */
 #define	FILEBENCH_NFILESETS		(16)
-#define	FILEBENCH_NFILESETENTRIES	(1024 * 1024)
+#define	FILEBENCH_NFILESETENTRIES	(1024 * 1024 * 10)	// https://stackoverflow.com/questions/22688406/filebench-error-out-of-shared-memory-when-i-try-to-set-nfiles-a-very-big-numbe/22945290#22945290?newreg=291e34f6ffa848bd858b97c1e8dc054d
 #define	FILEBENCH_NPROCFLOWS		(1024)
 #define	FILEBENCH_NTHREADFLOWS 		(1024)
 /* 16 flowops per threadflow seems reasonable */
